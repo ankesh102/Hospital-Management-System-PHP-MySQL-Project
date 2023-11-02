@@ -18,7 +18,7 @@ echo "<script>window.location.href ='index.php'</script>";
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> Hospital management System </title>
+    <title> Hospital management System - Ankesh</title>
 
     <link rel="shortcut icon" href="assets/images/fav.jpg">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -395,9 +395,10 @@ while ($row=mysqli_fetch_array($ret)) {
 ?>
 
 
-                        <?php  echo $row['PageDescription'];?> <br>
-                        Phone: <?php  echo $row['MobileNumber'];?> <br>
-                        Email: <a href="mailto:<?php  echo $row['Email'];?>" class=""><?php  echo $row['Email'];?></a><br>
+                        <?php  echo "Phagwara, Punjab, India, 144411"?> <br>
+                        <?php  echo "Designed By : Ankesh Kumar Pandey"?> <br>
+                        Phone: <?php  echo "7903331819"?> <br>
+                        Email: <a href="mailto:<?php  "ankesh@test.com";?>" class=""><?php  echo $row['Email'];?></a><br>
                         Timing: <?php  echo $row['OpenningTime'];?>
                     </address>
 
